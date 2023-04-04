@@ -1,0 +1,67 @@
+/*@import url();
+*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 800px;
+ 
+
+    /*Anula formatações padrões do HTML e CSS*/
+}
+
+nav{
+    background-color: #fff;
+    
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    /*Transforma a div em fixa e seta o tamnho e cor*/
+
+}
+
+nav .Logo{
+    color: #a6a8a9 ;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    /*mantem a logo fixada a esquerda*/
+}
+
+
+nav a {
+    color: #a6a8a9 ;
+    text-decoration: none;
+    float: right;
+    display: block;
+    padding: 0px 25px;
+    display: inline-block;
+    font-family:'Poppins-Medio';
+    
+
+
+
+    /* tamanho e espaçamento da Div superior */    
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color: #e4e4e4;
+    color: #333;
+    /*Altera a cor, dos objetos quando o mause passa por cima*/
+}
+
+.fundo-index img{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold' ;
+    src: url('Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medio';
+    src: url('Poppins-Medium.ttf');
+}
